@@ -7,4 +7,3 @@ Sección de productos: tarjjetas con los productos destacados, cada una con una 
 Formulario de contacto: Permite que los usuarios envíen sus consultas o sugerencias.
 Mapa de ubicación:muestra la dirección a través de un mapa interactivo de Google Maps.
 Navegación sencilla: todas las secciones son accesibles desde la barra de navegación, facilitando un acceso rápido a cualquier parte de la página
-Diseño responsiv
