@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" href="img/favicon.png" type="img_favicon">
+  
+  <title>EcoVida - Productos Naturales</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  
+  <header>
+
+    <h1>EcoVida</h1>
+
+    <nav>
+
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="#dondeencontrarnos">Dónde Encontrarnos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main>
+    
+    <section id="inicio">
+
+      <h2>Bienvenido a EcoVida</h2>
+
+      <p>Productos naturales para un estilo de vida saludable y sostenible</p>
+
+      <img src="img/productosnaturales.jpg" alt="Naturaleza" class="img_productosnaturales">
+
+    </section>
+
+    <section id="productos">
+
+      <h2>Productos</h2>
+
+      <div class="productos">
+        <div class="producto_card">
+          <img src="img/miel.jpg" alt="img_miel">
+          <h3>Miel Orgánica</h3>
+          <p>Miel pura, sin conservantes ni aditivos.</p>
+          <button class="btn_comprar">Comprar</button>
+        </div>
+
+        <div class="producto_card">
+          <img src="img/aceitecoco.jpg" alt="img_aceitecoco">
+          <h3>Aceite de Coco</h3>
+          <p>Aceite natural para cocinar y cuidado personal.</p>
+          <button class="btn_comprar">Comprar</button>
+        </div>
+
+        <div class="producto_card">
+          <img src="img/teverde.jpg" alt="img_teverde">
+          <h3>Té Verde</h3>
+          <p>Infusión antioxidante y refrescante.</p>
+          <button class="btn_comprar">Comprar</button>
+        </div>
+
+        <div class="producto_card">
+          <img src="img/quinoa.jpg" alt="img_quinoa">
+          <h3>Quinoa</h3>
+          <p>Grano completo, fuente de proteínas.</p>
+          <button class="btn_comprar">Comprar</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="reseñas">
+      <h2>Reseñas de Nuestros Clientes</h2>
+      <div class="reseñas_grid">
+        <div class="reseña">
+          <p>"La miel es deliciosa y de alta calidad. Recomendada!"</p>
+          <span>- Laura G.</span>
+        </div>
+        <div class="reseña">
+          <p>"El té verde es mi nuevo favorito. Fresco y natural."</p>
+          <span>- Miguel R.</span>
+        </div>
+        <div class="reseña">
+          <p>"El aceite de coco es fundamental en mi rutina de cuidado."</p>
+          <span>- Ana S.</span>
+        </div>
+        <div class="reseña">
+          <p>"La quinoa es perfecta para mis ensaladas. ¡Me encanta!"</p>
+          <span>- Javier P.</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="dondeencontrarnos">
+
+        <h2>Dónde encontrarnos</h2>
+
+        <div class="mapa_container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.4474160863138!2d-57.966151524508305!3d-34.92031437428675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7cce245f6c5%3A0x657389b3a2081a07!2sAEP%2C%20C.%2045%201066%2C%20B1900%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1731628054932!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+      
+    <section id="contacto">
+
+      <h2>Contacto</h2>
+
+      <form action="colecta.html">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="Ingrese nombre/s" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" placeholder="ejemplo@email.com" id="email" name="email" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" placeholder="¿Dudas? ¿Consultas? ¿Sugerencias? ;)" name="mensaje" required></textarea>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar todo</button>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 EcoVida - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
